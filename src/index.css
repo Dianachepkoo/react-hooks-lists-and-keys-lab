@@ -43,14 +43,14 @@ nav a {
 
 nav a:hover,
 nav a:active {
-  color: tomato;
-  border-bottom: 2px solid tomato;
+  color: orange;
+  border-bottom: 2px solid blue;
 }
 
 #home {
   height: 50vh;
   min-height: 400px;
-  background-color: cornsilk;
+  background-color: blueviolet;
 }
 
 #home,
@@ -73,7 +73,7 @@ nav a:active {
 }
 
 #projects {
-  background-color: cornsilk;
+  background-color: blueviolet;
   min-height: 400px;
 }
 
@@ -86,20 +86,20 @@ nav a:active {
 }
 
 .project-item {
-  background-color: white;
+  background-color: grey;
   padding: 2rem;
   margin: 1rem;
 }
 
 .technologies span {
-  background-color: lightblue;
+  background-color: greenyellow;
   margin: 0.25rem;
   padding: 0.5rem;
-  border-radius: 4px;
+  border-radius: 5px;
   display: inline-block;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 650px) {
   #project-list {
     flex-direction: row;
   }
